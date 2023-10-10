@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(207, 205, 205);
+    border-radius: 50%;
+    border: 8px solid blue;
+}
+.box-span {
+    position: absolute;
+    left: 37%;
+    bottom: -30px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: lawngreen;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.box-two .box-span {
+    background-color: red;
+}
